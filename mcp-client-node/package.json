@@ -1,0 +1,11 @@
+{
+  "name": "mcp-client-node",
+  "version": "0.1.0",
+  "description": "Node port of the MCP client",
+  "main": "main.js",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.19.0",
+    "mcp-client": "^1.12.0"
+  }
+}
