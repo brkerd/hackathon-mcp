@@ -122,7 +122,7 @@ class MCPClient:
 async def main():
     client = MCPClient()
     try:
-        await client.connect_to_server("C:\\Users\\Burak\\Desktop\\Hackathon2\\mcp-open-bank\\mcp-open-banking\\main.py")
+        await client.connect_to_server("pathtoserver")
         print(await client.process_query("List me transactions of Şok Market"))
     finally:
         await client.cleanup()
